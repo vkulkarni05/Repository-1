@@ -1,4 +1,191 @@
-hello all welcome to my world
-Thanks for coming
-see you soon!
-next meet-up in pune
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cafe Shop</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e8;
+            color: #333;
+        }
+
+        header {
+            background-color: #4b2e1f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        nav {
+            background-color: #2f1b12;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #d6a85f;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #d6b98c;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            color: #2f1b12;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .menu {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            font-size: 32px;
+            color: #4b2e1f;
+        }
+
+        .items {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .item {
+            background-color: white;
+            width: 220px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .item h3 {
+            color: #4b2e1f;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #a05a2c;
+            font-size: 18px;
+        }
+
+        .about {
+            background-color: #4b2e1f;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        footer {
+            background-color: #2f1b12;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>☕ My Cafe Shop</h1>
+        <p>Fresh Coffee • Delicious Food • Happy Moments</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to My Cafe</h2>
+        <p>Enjoy freshly brewed coffee and delicious food with us!</p>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="items">
+
+            <div class="item">
+                <h3>☕ Cappuccino</h3>
+                <p>Freshly brewed coffee with steamed milk.</p>
+                <p class="price">₹120</p>
+            </div>
+
+            <div class="item">
+                <h3>☕ Cold Coffee</h3>
+                <p>Chilled creamy coffee with a delicious taste.</p>
+                <p class="price">₹150</p>
+            </div>
+
+            <div class="item">
+                <h3>🍕 Veg Pizza</h3>
+                <p>Fresh vegetables with cheese and special sauce.</p>
+                <p class="price">₹250</p>
+            </div>
+
+            <div class="item">
+                <h3>🍔 Veg Burger</h3>
+                <p>Fresh crispy patty with vegetables and cheese.</p>
+                <p class="price">₹180</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+            My Cafe is a cozy place where you can relax,
+            enjoy great coffee and spend quality time with friends.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Pune, Maharashtra</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ mycafe@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 My Cafe Shop | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
+```
